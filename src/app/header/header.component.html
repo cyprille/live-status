@@ -1,0 +1,48 @@
+<div class="grid-x grid-padding-x">
+	<div class="large-12 cell">
+
+		<div *ngIf="globalStatusIsOk == true" class="callout success">
+			<span class="globalStatus" i18n="@@globalStatusSuccess">i18n</span>
+
+			<span class="refresh">
+				<span i18n="@@refreshDate">i18n</span>
+				{{ refreshTimestamp }}
+			</span>
+		</div>
+		<div *ngIf="globalStatusIsOk == false" class="callout alert">
+			<span class="globalStatus" i18n="@@globalStatusWarning">i18n</span>
+
+			<span class="refresh">
+				<span i18n="@@refreshDate">i18n</span>
+				{{ refreshTimestamp }}
+			</span>
+		</div>
+	</div>
+</div>
+
+<div class="callout secondary">
+	<p>
+		<span i18n="@@mainDescription">i18n</span>
+		<br />
+
+		<span i18n="@@statusDescription">i18n</span>
+		<br /><br />
+
+		<span class="success label" i18n="@@statusSuccess">i18n</span>
+		&nbsp;
+
+		<span class="warning label" i18n="@@statusWarning">i18n</span>
+		&nbsp;
+
+		<span class="alert label" i18n="@@statusDanger">i18n</span>
+		&nbsp;
+
+		<span class="primary label" i18n="@@statusMaintenance">i18n</span>
+		&nbsp;
+
+		<span class="secondary label" i18n="@@statusUnknown">i18n</span>
+		&nbsp;
+	</p>
+
+	<a href="https://www.mynelis.com" i18n="@@backToWebsite" i18n-title="@@backToWebsite" title="i18n">i18n</a>
+</div>

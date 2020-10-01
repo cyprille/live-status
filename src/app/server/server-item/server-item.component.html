@@ -1,0 +1,22 @@
+<div class="grid-x grid-padding-x">
+	<div class="large-12 medium-12 cell">
+		<div class="callout">
+			<div class="grid-x">
+				<ng-container [ngSwitch]="server.type" class="success label">
+					<div *ngSwitchCase="web">Web</div>
+					<div *ngSwitchCase="data">Data</div>
+					<div *ngSwitchCase="automation">Automation</div>
+					<div *ngSwitchCase="admin">Admin</div>
+				</ng-container>
+
+				<!-- <div class="large-10 medium-10 cell">
+					{{ server.name }}
+				</div>
+
+				<app-server-item-status [server]="server" class="large-2 medium-2 cell">
+					
+				</app-server-item-status> -->
+			</div>
+		</div>
+	</div>
+</div>

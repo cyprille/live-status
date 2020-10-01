@@ -1,0 +1,28 @@
+<app-menu></app-menu>
+
+<div class="grid-container">
+	<div class="grid-x grid-padding-x">
+		<div class="large-2 medium-2 cell">&nbsp;</div>
+
+		<div class="large-8 medium-8 cell">
+			<app-header></app-header>
+
+			<ng-container *ngFor="let server of serverItems; let i = index">
+				<ng-container [ngSwitch]="server.type" class="success label">
+					<div *ngSwitchCase="web">Web</div>
+					<div *ngSwitchCase="data">Data</div>
+					<div *ngSwitchCase="automation">Automation</div>
+					<div *ngSwitchCase="admin">Admin</div>
+				</ng-container>
+			</ng-container>
+
+			<!-- <app-server-item *ngFor="let server of serverItems; let i = index" [server]="server">
+				
+			</app-server-item> -->
+		</div>
+		
+		<div class="large-2 medium-2 cell">&nbsp;</div>
+	</div>
+</div>
+
+<app-footer></app-footer>

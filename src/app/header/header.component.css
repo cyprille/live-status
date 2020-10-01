@@ -1,0 +1,10 @@
+.globalStatus {
+	font-size: 1.25rem;
+}
+
+.refresh {
+	float: right;
+	font-size: 0.8rem;
+	color: #999;
+	margin-top: 6px;
+}

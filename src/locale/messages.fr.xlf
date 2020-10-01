@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="globalStatusSuccess" datatype="html">
+        <target>Tous les services sont opérationnels</target>
+      </trans-unit>
+      <trans-unit id="globalStatusWarning" datatype="html">
+        <target>Des perturbations sont actuellement constatées</target>
+      </trans-unit>
+      <trans-unit id="refreshDate" datatype="html">
+        <target>Mis à jour </target>
+      </trans-unit>
+      <trans-unit id="mainDescription" datatype="html">
+        <target>Cette page indique l'état de fonctionnement de l'ensemble des services proposés par Nelis.</target>
+      </trans-unit>
+      <trans-unit id="statusDescription" datatype="html">
+        <target>Les informations sont présentées en temps réel.</target>
+      </trans-unit>
+      <trans-unit id="statusAll" datatype="html">
+        <target>Tous</target>
+      </trans-unit>
+      <trans-unit id="statusSuccess" datatype="html">
+        <target>Disponible</target>
+      </trans-unit>
+      <trans-unit id="statusWarning" datatype="html">
+        <target>Dégradé</target>
+      </trans-unit>
+      <trans-unit id="statusDanger" datatype="html">
+        <target>Interrompu</target>
+      </trans-unit>
+      <trans-unit id="statusMaintenance" datatype="html">
+        <target>Maintenance</target>
+      </trans-unit>
+      <trans-unit id="statusUnknown" datatype="html">
+        <target>Inconnu</target>
+      </trans-unit>
+      <trans-unit id="backToWebsite" datatype="html">
+        <target>Retour au site web de Nelis</target>
+      </trans-unit>
+      <trans-unit id="noServerInFilter" datatype="html">
+        <target>Aucun service avec ce statut</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

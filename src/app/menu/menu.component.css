@@ -1,0 +1,9 @@
+a.white,
+a.white:visited,
+a.white:hover {
+    color: #FFF;
+}
+
+.title-bar {
+	background-color: #2684c2;
+}
